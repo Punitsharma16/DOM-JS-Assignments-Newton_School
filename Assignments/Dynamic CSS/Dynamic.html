@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Css</title>
+    <link rel="stylesheet" href="Dynamic.css">
+</head>
+<body>
+    <div class="text-here" id="text-container">This is some example text</div>
+    <input type="text" id="colorbox">
+    <button id="colorchange">Change color</button>
+
+    <input type="range" id="fontsize" min="10" max="100" value="55">
+
+    <button class="stylebt" id="underline">Underline</button>
+    <button class="stylebt" id="italic">Italic</button>
+    <button class="stylebt" id="bold">Bold</button>
+
+    <select id="list">
+        <option value="Serif">Serif</option>
+        <option value="sans-serif">sans-serif</option>
+        <option value="monospace">monospace</option>
+        <option value="cursive">cursive</option>
+        <option value="fantasy">fantasy</option>
+    </select>
+
+    <button id="getstyle">Get Css Properties</button>
+    <p id="css-props"></p>
+    <script src="./Dynamic.js"></script>
+</body>
+</html>
